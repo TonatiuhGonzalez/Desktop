@@ -57,6 +57,7 @@ yargs.command(
     }
 )
 
+//crear comando leer 1
 yargs.command({
     command:'readOne',
     describe:'read one note',
@@ -69,6 +70,27 @@ yargs.command({
     },
     handler(argv){
         notes.readOneNote(argv.title)
+    }
+})
+
+//crear comando modify 
+yargs.command({
+    command:'modify',
+    describe:'modify a note',
+    builder:{
+        title:{
+            describe:'Note title',
+            demandOption:true,
+            type:'string'
+        },
+        body:{
+            describe:'Note body',
+            demandOption:true,
+            type:'string'
+        }
+    },
+    handler(argv){
+        notes.modifyNote(argv.title,argv.body)
     }
 })
 
