@@ -1,0 +1,72 @@
+*{
+	/*border: 1px solid red;*/
+	font-family: 'Trebuchet MS', sans-serif;
+	text-align: center;
+}
+
+img{
+	border-radius: 45%;
+	height: 150px;
+	width: 130px;
+}
+
+.left{
+	height: 30px;
+	width: 30%;
+}
+
+.right{
+	height: 30px;
+	width: 50%;
+}
+
+.first{
+	background: rgb(214, 221, 230);
+}
+
+.negrita{
+	color: rgb(14, 53, 108);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#puesto{
+	text-transform: capitalize;
+}
+
+#titulo_1{
+	background: rgb(214, 221, 230);
+	font-size: 20px;
+}
+
+#nombre{
+	font-size: 28px;
+}
+
+#carrera{
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#AdM{
+	text-align: left;
+	background: rgb(214, 221, 230);
+}
+
+#puesto{
+	text-align: left;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#Lugar_fecha{
+	text-align: left;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#info{
+	text-align: justify;
+	font-size: 16px;
+}
